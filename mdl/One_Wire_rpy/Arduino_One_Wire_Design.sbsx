@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.831.0</version>
+	<lang>C++</lang>
+	<BuildNo>9835649</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 7532c759-4d04-41ed-8014-6b7157e82c87</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Arduino_One_Wire_Design</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">SDD_Package</_hname>
+							<_hid type="a">GUID be799ef8-2ebb-4026-9b54-533e335785fb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2020::10:25:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2020::10:25:4</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">2.19.2020::10:25:4</weakCGTime>
+			<strongCGTime type="a">2.18.2020::10:43:51</strongCGTime>
+			<_defaultComposite type="s">GUID 432abd46-9fce-407e-afdc-6667976f37be</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 432abd46-9fce-407e-afdc-6667976f37be</value>
+				<value>GUID 07f2052f-7afd-4885-a879-6803fdb7c899</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 432abd46-9fce-407e-afdc-6667976f37be</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 07f2052f-7afd-4885-a879-6803fdb7c899</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Arduino_One_Wire_Interaction_Layer_Design</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Component_Design</_hsubsystem>
+							<_hname type="a">Component_Design</_hname>
+							<_hid type="a">GUID 5cef8605-f11b-45b0-9267-4db1d6e495d6</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2020::10:25:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2020::10:25:4</_modifiedTime>
+			<weakCGTime type="a">2.19.2020::10:25:4</weakCGTime>
+			<strongCGTime type="a">2.19.2020::10:25:4</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID fe43d767-3b76-4fb5-9f1f-41144696e529</value>
+			</AggregatesList>
+		</IClass>
+		<IGeneralization type="e">
+			<_id type="a">GUID fe43d767-3b76-4fb5-9f1f-41144696e529</_id>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Component_Design</_hsubsystem>
+							<_hname type="a">Component_Type_Ref</_hname>
+							<_hid type="a">GUID 6a9f6eaa-cb72-4f60-98f9-0b0e21de73e0</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.18.2020::10:44:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.18.2020::10:44:17</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\Arduino_One_Wire.sbsx</_hfilename>
+					<_hsubsystem type="a">Arduino_One_Wire</_hsubsystem>
+					<_hname type="a">Arduino_One_Wire_Interaction_Layer</_hname>
+					<_hid type="a">GUID 0be6c685-54c8-4ec6-a09e-abc52837dd17</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
