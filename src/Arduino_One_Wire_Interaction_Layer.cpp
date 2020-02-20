@@ -180,34 +180,34 @@ void Arduino_One_Wire_Interaction_Layer::Select( const uint8_t address[8] )
 /* Provided operations */
 /**************************************************************************************************/
 void Arduino_One_Wire_Interaction_Layer::Send_Simple_Command( 
-		T_One_Wire_Device_Address slave_address,
-		uint8_t command )
+	const T_One_Wire_Device_Address* slave_address,
+	uint8_t command )
 {
 	this->Reset();
-	this->Select(slave_address);
-	this->Write(command);
+	this->Select( *slave_address );
+	this->Write( command );
 }
 /*------------------------------------------------------------------------------------------------*/
 void Arduino_One_Wire_Interaction_Layer::Send_Write_Command(
-		T_One_Wire_Device_Address slave_address,
-		uint8_t command,
-		uint8_t* message,
-		uint8_t nb_bytes )
+	const T_One_Wire_Device_Address* slave_address,
+	uint8_t command,
+	const uint8_t* message,
+	uint8_t nb_bytes )
 {
 	this->Reset();
-	this->Select( slave_address );
+	this->Select( *slave_address );
 	this->Write( command );
 	this->Write_Bytes( message, nb_bytes );
 }
 /*------------------------------------------------------------------------------------------------*/
 void Arduino_One_Wire_Interaction_Layer::Send_Read_Command(
-	T_One_Wire_Device_Address slave_address,
+	const T_One_Wire_Device_Address* slave_address,
 	uint8_t command,
 	uint8_t* message,
 	uint8_t nb_bytes )
 {
 	this->Reset();
-	this->Select( slave_address );
+	this->Select( *slave_address );
 	this->Write( command );
 	this->Read_Bytes( message, nb_bytes );
 }
