@@ -22,6 +22,7 @@ class Arduino_One_Wire_Interaction_Layer : i_One_Wire_Protocol {
 public :
     /*--------------------------------------------------------------------------------------------*/
     /* Constructor */
+	Arduino_One_Wire_Interaction_Layer() {}
     Arduino_One_Wire_Interaction_Layer( uint8_t an_arduino_digital_pin_id );
 
     /*--------------------------------------------------------------------------------------------*/
