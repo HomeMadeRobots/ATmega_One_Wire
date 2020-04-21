@@ -10,14 +10,14 @@
 	<ISubsystem type="e">
 			<_id type="a">GUID 71b806d1-0d6f-497c-a1cc-eda388375736</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Arduino_One_Wire</_name>
+			<_name type="a">ATmega_One_Wire</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">PSWA_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
@@ -25,11 +25,11 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2020::10:24:46</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2020::10:24:46</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.21.2020::14:33:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.21.2020::14:33:29</_modifiedTime>
 			<_lastID type="a">13</_lastID>
-			<weakCGTime type="a">2.19.2020::10:24:46</weakCGTime>
-			<strongCGTime type="a">2.17.2020::16:32:29</strongCGTime>
+			<weakCGTime type="a">4.21.2020::14:33:29</weakCGTime>
+			<strongCGTime type="a">4.21.2020::12:59:15</strongCGTime>
 			<_defaultComposite type="s">GUID ad4fd1e5-4945-42b6-bc47-582582badb57</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">2.18.2020::10:38:13</_configurationRelatedTime>
@@ -276,7 +276,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Diagrams</_hsubsystem>
 							<_hname type="a">PSWA_Diagram</_hname>
 							<_hid type="a">GUID c7b74034-874b-4fb8-b488-dec424934ba4</_hid>
@@ -285,8 +285,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2020::10:24:46</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2020::10:24:46</_lastModifiedTime>
+			<_modifiedTime type="a">4.21.2020::14:12:51</_modifiedTime>
+			<_lastModifiedTime type="a">4.21.2020::14:12:51</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -420,7 +420,7 @@
 			<m_pParent type="s">GUID 5c4361e3-72b4-4f39-a708-bc0ed1221d7f</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Arduino_One_Wire_Interaction_Layer</m_str>
+					<m_str type="a">ATmega_One_Wire_Interaction_Layer</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -436,7 +436,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2092</m_drawBehavior>
-			<m_transform type="a">0.361662 0 0 0.290553 1137.28 67.4082 </m_transform>
+			<m_transform type="a">0.361662 0 0 0.290553 1096.28 28.4082 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -521,7 +521,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">-0 -3.44172 2.76501 -0 -105.835 958.834 </m_transform>
+			<m_transform type="a">-0 -3.44172 2.76501 -0 -105.835 810.84 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -648,7 +648,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2092</m_drawBehavior>
-			<m_transform type="a">0.454202 0 0 0.188948 513.092 61.836 </m_transform>
+			<m_transform type="a">0.601511 0 0 0.188948 348.798 61.836 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -746,14 +746,14 @@
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hfilename type="a">.\..\..\..\One_Wire_Interfaces\mdl\One_Wire_Interfaces_rpy\One_Wire_Interfaces.sbsx</_hfilename>
 					<_hsubsystem type="a">One_Wire_Interfaces</_hsubsystem>
-					<_hname type="a">T_Slave_Address</_hname>
+					<_hname type="a">T_One_Wire_Device_Address</_hname>
 					<_hid type="a">GUID 413fcd47-30b2-4fda-a26a-d5c53d4ae270</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 5c4361e3-72b4-4f39-a708-bc0ed1221d7f</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">T_Slave_Address</m_str>
+					<m_str type="a">T_One_Wire_Device_Address</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -769,7 +769,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.28825 0 0 0.131471 623 416.394 </m_transform>
+			<m_transform type="a">0.28825 0 0 0.131471 498 356.394 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -820,14 +820,14 @@
 		<IClass type="e">
 			<_id type="a">GUID 0be6c685-54c8-4ec6-a09e-abc52837dd17</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Arduino_One_Wire_Interaction_Layer</_name>
+			<_name type="a">ATmega_One_Wire_Interaction_Layer</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
 							<_hname type="a">Component_Type</_hname>
 							<_hid type="a">GUID 9f000df0-3104-4bba-93b4-e2b6a64d3833</_hid>
@@ -835,7 +835,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2020::10:24:46</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.21.2020::14:33:29</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -843,16 +843,13 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_description type="p"><IDescription type="e">
-				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 This Component_Type allows to manage a 1-Wire bus through a digital pin of an \ulwave Arduino\ulnone  board.\par%0D
-}%0D
-</_textRTF>
+				<_text type="a">This Component_Type allows to manage a 1-Wire bus through a digital pin of an ATmega chip.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.19.2020::10:24:46</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.19.2020::10:24:46</weakCGTime>
-			<strongCGTime type="a">2.19.2020::10:24:46</strongCGTime>
+			<_modifiedTime type="a">4.21.2020::14:33:29</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">4.21.2020::14:33:29</weakCGTime>
+			<strongCGTime type="a">4.21.2020::12:59:35</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -860,6 +857,8 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID e6a3d550-eb1b-4b96-8a68-172b99fe1e2c</value>
+				<value>GUID 4851773b-0d33-41ea-9cab-3a9bb158bb45</value>
+				<value>GUID dcda7b77-16f6-4a29-ba87-199c676fc236</value>
 			</AggregatesList>
 		</IClass>
 		<IPort type="e">
@@ -872,7 +871,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Ports</_hsubsystem>
 							<_hname type="a">Provider_Port</_hname>
 							<_hid type="a">GUID 220d63ab-1b03-4cbb-83e1-4160a66b0389</_hid>
@@ -941,6 +940,76 @@
 			</IGeneralization>
 			</_implicitClass>
 		</IPort>
+		<IAttribute type="e">
+			<_id type="a">GUID 4851773b-0d33-41ea-9cab-3a9bb158bb45</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Pin_Address</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
+							<_hname type="a">Configuration_Attribute</_hname>
+							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.21.2020::14:32:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.21.2020::14:32:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hname type="a">uint16</_hname>
+					<_hid type="a">GUID 0d6a9487-2e1a-4d71-8dcb-52824fa8170d</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID dcda7b77-16f6-4a29-ba87-199c676fc236</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Bit_Index</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
+							<_hname type="a">Configuration_Attribute</_hname>
+							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.21.2020::14:32:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.21.2020::14:32:8</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hname type="a">uint8</_hname>
+					<_hid type="a">GUID 058963e7-375f-4f57-aceb-5a2f36b75490</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

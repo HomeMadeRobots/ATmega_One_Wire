@@ -74,9 +74,9 @@
 				</Subjects>
 			</IPropertyContainer>
 			</_properties>
-			<_name type="a">One_Wire</_name>
-			<_modifiedTimeWeak type="a">2.18.2020::11:6:28</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2020::11:6:28</_modifiedTime>
+			<_name type="a">ATmega_One_Wire</_name>
+			<_modifiedTimeWeak type="a">4.21.2020::12:59:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.21.2020::12:59:54</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -102,14 +102,13 @@
 			<_defaultSubsystem type="r">
 				<ISubsystemHandle type="e">
 					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hname type="a">Arduino_One_Wire</_hname>
+					<_hname type="a">ATmega_One_Wire</_hname>
 					<_hid type="a">GUID 71b806d1-0d6f-497c-a1cc-eda388375736</_hid>
 				</ISubsystemHandle>
 			</_defaultSubsystem>
 			<_component type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IComponent</_hm2Class>
-					<_hname type="a">DefaultComponent</_hname>
 					<_hid type="a">GUID 7faa63d1-b776-47a7-ba2e-382b91818554</_hid>
 				</IHandle>
 			</_component>
@@ -165,43 +164,38 @@
 				<value>GUID 8bd5e492-f817-4ae3-bbe5-45e3bd35c53b</value>
 				<value>GUID fb48d6a1-4193-4abc-a7e4-2e98bfe4df96</value>
 				<value>GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</value>
-				<value>GUID 7532c759-4d04-41ed-8014-6b7157e82c87</value>
 				<value>GUID 1264971e-5fb2-419e-b507-78327d6bdf0a</value>
 				<value>GUID 7faa63d1-b776-47a7-ba2e-382b91818554</value>
 			</AggregatesList>
 		</IProject>
 		<ISubsystem type="e">
-			<fileName type="a">Arduino_One_Wire</fileName>
+			<fileName type="a">ATmega_One_Wire</fileName>
 			<_id type="a">GUID 71b806d1-0d6f-497c-a1cc-eda388375736</_id>
 		</ISubsystem>
 		<IProfile type="e">
 			<fileName type="a">Software_Detailed_Design_Metamodel</fileName>
-			<_persistAs type="a">..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID e6dd7000-5327-4839-ad4b-6da8f8351563</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">Project_Metamodel</fileName>
-			<_persistAs type="a">..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID 8bd5e492-f817-4ae3-bbe5-45e3bd35c53b</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">Software_Data_Type_Metamodel</fileName>
-			<_persistAs type="a">..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID fb48d6a1-4193-4abc-a7e4-2e98bfe4df96</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">Physical_Software_Architecture_Metamodel</fileName>
-			<_persistAs type="a">..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
-		<ISubsystem type="e">
-			<fileName type="a">Arduino_One_Wire_Design</fileName>
-			<_id type="a">GUID 7532c759-4d04-41ed-8014-6b7157e82c87</_id>
-		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">One_Wire_Interfaces</fileName>
 			<_persistAs type="a">..\..\..\One_Wire_Interfaces\mdl\One_Wire_Interfaces_rpy</_persistAs>
@@ -209,9 +203,152 @@
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</ISubsystem>
 		<IComponent type="e">
-			<fileName type="a">DefaultComponent</fileName>
 			<_id type="a">GUID 7faa63d1-b776-47a7-ba2e-382b91818554</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">DefaultComponent</_name>
+			<_modifiedTimeWeak type="a">4.21.2020::12:59:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.21.2020::12:59:54</_modifiedTime>
+			<m_buildType type="a">Executable</m_buildType>
+			<m_configActive type="r">
+				<ICodeGenConfigInfoHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hname type="a">DefaultComponent\DefaultConfig</_hname>
+					<_hid type="a">GUID 115b9fd5-51ea-4285-9ea7-7d001992bca7</_hid>
+				</ICodeGenConfigInfoHandle>
+			</m_configActive>
+			<HandlesInMe type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">6</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">ATmega_One_Wire</_hname>
+							<_hid type="a">GUID 71b806d1-0d6f-497c-a1cc-eda388375736</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hname type="a">Software_Detailed_Design_Metamodel</_hname>
+							<_hid type="a">GUID e6dd7000-5327-4839-ad4b-6da8f8351563</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hname type="a">Project_Metamodel</_hname>
+							<_hid type="a">GUID 8bd5e492-f817-4ae3-bbe5-45e3bd35c53b</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hname type="a">Software_Data_Type_Metamodel</_hname>
+							<_hid type="a">GUID fb48d6a1-4193-4abc-a7e4-2e98bfe4df96</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hname type="a">Physical_Software_Architecture_Metamodel</_hname>
+							<_hid type="a">GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">One_Wire_Interfaces</_hname>
+							<_hid type="a">GUID 1264971e-5fb2-419e-b507-78327d6bdf0a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</HandlesInMe>
+			<VariationPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</VariationPoints>
+			<SelectedVariants type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</SelectedVariants>
+			<weakCGTime type="a">4.21.2020::12:59:54</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<AggregatesList type="e">
+				<value>GUID 91ad28f2-2e48-46e0-b0b8-8268976c17a0</value>
+				<value>GUID 115b9fd5-51ea-4285-9ea7-7d001992bca7</value>
+			</AggregatesList>
 		</IComponent>
+		<IFolder type="e">
+			<_id type="a">GUID 91ad28f2-2e48-46e0-b0b8-8268976c17a0</_id>
+			<_myState type="a">73728</_myState>
+			<_name type="a">Files</_name>
+			<_modifiedTimeWeak type="a">2.17.2020::12:26:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.17.2020::12:26:53</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		<ICodeGenConfigInfo type="e">
+			<_id type="a">GUID 115b9fd5-51ea-4285-9ea7-7d001992bca7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.17.2020::12:26:53</_modifiedTime>
+			<_scopeType type="a">Explicit</_scopeType>
+			<_instrumentation type="a">Animation</_instrumentation>
+			<_timeModel type="a">RealTime</_timeModel>
+			<m_generateActors type="a">1</m_generateActors>
+			<_statechartImplementation type="a">Flat</_statechartImplementation>
+			<_checksList type="a">0 ,</_checksList>
+			<ScopeElements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</ScopeElements>
+			<InitialInstances type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</InitialInstances>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<AnimScopeElements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</AnimScopeElements>
+			<m_allInAnimScope type="a">1</m_allInAnimScope>
+			<m_generateUsecases type="a">0</m_generateUsecases>
+			<AggregatesList type="e">
+				<value>GUID 33043c26-acd0-43a1-91d3-930db121ed78</value>
+			</AggregatesList>
+		</ICodeGenConfigInfo>
+		<IFolder type="e">
+			<_id type="a">GUID 33043c26-acd0-43a1-91d3-930db121ed78</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.17.2020::12:26:53</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
