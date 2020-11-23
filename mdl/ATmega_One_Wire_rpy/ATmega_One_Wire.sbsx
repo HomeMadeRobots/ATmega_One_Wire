@@ -17,18 +17,18 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::14:33:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::14:33:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:37:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:37:38</_modifiedTime>
 			<_lastID type="a">13</_lastID>
-			<weakCGTime type="a">4.21.2020::14:33:29</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:37:38</weakCGTime>
 			<strongCGTime type="a">4.21.2020::12:59:15</strongCGTime>
 			<_defaultComposite type="s">GUID ad4fd1e5-4945-42b6-bc47-582582badb57</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -285,8 +285,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::14:12:51</_modifiedTime>
-			<_lastModifiedTime type="a">4.21.2020::14:12:51</_lastModifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:35:40</_modifiedTime>
+			<_lastModifiedTime type="a">11.23.2020::15:35:40</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -549,7 +549,7 @@
 			<m_SubType type="a">0</m_SubType>
 			<m_providedInterfaceLabel type="p">
 				<CGIText type="e">
-					<m_str type="a">i_One_Wire_Protocol</m_str>
+					<m_str type="a">One_Wire_Protocol</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -625,14 +625,14 @@
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\..\..\..\One_Wire_Interfaces\mdl\One_Wire_Interfaces_rpy\One_Wire_Interfaces.sbsx</_hfilename>
 					<_hsubsystem type="a">One_Wire_Interfaces</_hsubsystem>
-					<_hname type="a">i_One_Wire_Protocol</_hname>
+					<_hname type="a">One_Wire_Protocol</_hname>
 					<_hid type="a">GUID 8cf35497-b080-4089-bd90-0beba9c46ace</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 5c4361e3-72b4-4f39-a708-bc0ed1221d7f</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">One_Wire_Interfaces::i_One_Wire_Protocol</m_str>
+					<m_str type="a">One_Wire_Interfaces::One_Wire_Protocol</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -835,7 +835,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::14:33:29</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">11.23.2020::15:37:41</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -846,9 +846,9 @@
 				<_text type="a">This Component_Type allows to manage a 1-Wire bus through a digital pin of an ATmega chip.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.21.2020::14:33:29</_modifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:37:41</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">4.21.2020::14:33:29</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:37:41</weakCGTime>
 			<strongCGTime type="a">4.21.2020::12:59:35</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -931,7 +931,7 @@
 						<_hm2Class type="a">IClass</_hm2Class>
 						<_hfilename type="a">.\..\..\..\One_Wire_Interfaces\mdl\One_Wire_Interfaces_rpy\One_Wire_Interfaces.sbsx</_hfilename>
 						<_hsubsystem type="a">One_Wire_Interfaces</_hsubsystem>
-						<_hname type="a">i_One_Wire_Protocol</_hname>
+						<_hname type="a">One_Wire_Protocol</_hname>
 						<_hid type="a">GUID 8cf35497-b080-4089-bd90-0beba9c46ace</_hid>
 					</INObjectHandle>
 				</_dependsOn>
@@ -950,21 +950,21 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::14:32:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::14:32:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:36:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:36:3</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
-					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Basic_Data_Types</_hsubsystem>
 					<_hname type="a">uint16</_hname>
 					<_hid type="a">GUID 0d6a9487-2e1a-4d71-8dcb-52824fa8170d</_hid>
 				</IHandle>
@@ -974,7 +974,16 @@
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID a96e7d40-2478-4175-abc1-1e754ef456d2</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID a96e7d40-2478-4175-abc1-1e754ef456d2</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:36:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:36:3</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID dcda7b77-16f6-4a29-ba87-199c676fc236</_id>
 			<_myState type="a">8192</_myState>
@@ -985,21 +994,21 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::14:32:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::14:32:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:37:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:37:41</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
-					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Basic_Data_Types</_hsubsystem>
 					<_hname type="a">uint8</_hname>
 					<_hid type="a">GUID 058963e7-375f-4f57-aceb-5a2f36b75490</_hid>
 				</IHandle>
@@ -1009,7 +1018,16 @@
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID c14da3a8-efcc-4ad3-a854-b83f33fabf38</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID c14da3a8-efcc-4ad3-a854-b83f33fabf38</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:37:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:37:41</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
